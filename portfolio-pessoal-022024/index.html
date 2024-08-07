@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Douglas Bertoldi</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--lightgallery-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css"
+        integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Modal-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--Juery ui-->
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <!--TypeWriter-->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!--Javasript-->
+    <Script src="js/jq.js"></Script>
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <!--font Awesome-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+        integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header id="header"> . <img class="img-abertura-tag" src="img/Design sem nome(2).svg"
+            alt="imagem ilustrativa para efeito visual, tag de abertura">
+        <div class="container-text">
+            <p class="hello"><span>&#60p> HELLO</span> WORLD! &#60p></p>
+            <H1>DOUGLAS <span>BERTOLDI</span></H1>
+            <div id="container-skills">
+                <p id="skills">Analista de sistemas</p>
+                <img class="img-fechamento-tag" src="img/Design sem nome(3).svg"
+                    alt="imagem ilustrativa para efeito visual, tag de fechamento">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <nav class="nav-header">
+            <i class="icone-hamburguer fas fa-bars" alt="botao de links do conteudo da pagina"></i>
+            <ul class="ul-nav-header">
+                <h2 class="links-ocultos">Links da pagina</h2>
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#cursos">ESTUDO</a></li>
+                <li><a href="#trabalhos">TRABALHOS</a></li>
+                <li><a href="#contatos">CONTATO</a></li>
+            </ul>
+        </nav>
+        <section class="main-section" id="sobre">
+            <div class="main-text">
+                <h1 class="main-text-titulo">Olá, seja bem-vindo!</h1><br>
+                <p class="main-text-subtitulo"> Sou estudante do quinto período de Análise e desenvolvimento de
+                    sistemas, cursando pela Uniasselvi. <br> <br> Com este portfolio pretendo demonstrar algumas das
+                    minhas habilidades técnicas, assim como alguns cursos que realizei.
+            </div>
+            <img src="img/perfil.jpg" alt="">
+        </section>
+        <nav class="container-link-cursos" id="cursos">
+            <ul class="abas">
+                <li class="aba">
+                    <p> Graduação </p>
+                </li>
+                <li class="aba">
+                    <p>Banco de dados</p>
+                </li>
+                <li class="aba">
+                    <p>Web</p>
+                </li>
+            </ul>
+        </nav>
+        <article class="article">
+            <section class="container-uniasselvi" id="conteudo">
+                <div class="container-cursos">
+                    <h2>Uniasselvi</h2>
+                    <p class="barra"></p>
+                    <p> O curso forma profissionais para atuar com programação, arquitetura de computadores,
+                        desenvolvimento de sistemas web, além de executar projetos, fazer implementação, implantação e
+                        manutenção de softwares. <br><br> Atuar como consultor, analista, desenvolvedor, prestador de
+                        serviços em empresas do setor público, privado, empresas de Tecnologia da Informação (TI) e de
+                        telecomunicações, além de poder atuar no direcionamento, acompanhamento e validação de
+                        softwares. </p>
+                </div>
+                <div id="ex1" class="modal">
+                    <h2>Grade</h2>
+                    <ul>
+                        <li>Arquitetura de Computadores</li>
+                        <li>Segurança em Tecnologia da Informação</li>
+                        <li>Engenharia e Projeto de Software</li>
+                        <li>Fundamentos de Redes de Computadores</li>
+                        <li>Desenvolvimento de Sistemas</li>
+                        <li>Banco de Dados</li>
+                        <li>Gestão da Tecnologia da Informação</li>
+                        <li>Sistemas de Informação</li>
+                        <li>Programação para Dispositivos Móveis</li>
+                        <li>Inteligência Artificial</li>
+                        <li>entre outros</li>
+                    </ul>
+                </div>
+                <p class="link-modal" alt="link de grades deste curso"><a href="#ex1" rel="modal:open">Competências
+                        deste curso </a></p>
+            </section>
+            <section class="container-bancoDados" id="conteudo">
+                <div class="container-cursos">
+                    <h2>IGTI - Bootcamp Analista de Dados</h2>
+                    <p class="barra"></p>
+                    <p> Bootcamp com o objetivo de apresentar os conceitos e práticas fundamentais e avançados de
+                        modelagem de dados, de bancos de dados relacionais e não relacionais, e das linguagens para
+                        criação de estruturas, manipulação de dados, programação e segurança de acesso aos dados.
+                        <br><br> Um analista de dados é um profissional responsável por coletar, organizar, analisar e
+                        interpretar grandes conjuntos de dados para fornecer insights valiosos e apoiar a tomada de
+                        decisões estratégicas nas organizações. </p>
+                </div>
+                <div id="ex2" class="modal">
+                    <h2>Grade</h2>
+                    <ul>
+                        <li>Fundamentos</li>
+                        <li>Modelagem</li>
+                        <li>Linguagem SQL</li>
+                        <li>Linguagem NoSql</li>
+                        <li>Performance e otimização</li>
+                        <br>
+                        <li>Banco de dados utilizados:</li>
+                        <li>MongoDB</li>
+                        <li>SqlServer</li>
+                    </ul>
+                </div>
+                <p class="link-modal" alt="link de grades deste curso"><a href="#ex2" rel="modal:open">Competências
+                        deste curso </a></p>
+            </section>
+            <section class="container-web" id="conteudo">
+                <div class="container-cursos">
+                    <h2>Udemy - Desenvolvimento Web Completo</h2>
+                    <p class="barra"></p>
+                    <p> Curso voltado para web desenvolvimento front-end e back-end. <br><br> O curso Desenvolvimento
+                        Web Completo - 20 cursos + 20 projetos, o curso mais completo e bem avaliado da categoria.
+                        <br><br> O curso conta com mais de 620 aulas, ao todo são mais de 117 horas de videoaulas em que
+                        são abordadas as principais tecnologias web do momento. </p>
+                </div>
+                <div id="ex3" class="modal">
+                    <h2>Grade</h2>
+                    <ul>
+                        <li>GIT</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Bootstrap</li>
+                        <li>Jacascript (ES14)</li>
+                        <li>Jquery</li>
+                        <li>PHP (com PDO)</li>
+                        <li>MySql</li>
+                        <li>Ajax</li>
+                        <li>MVC</li>
+                        <li>IONIC</li>
+                        <li>WordPress</li>
+                        <li>Servidores</li>
+                    </ul>
+                </div>
+                <p class="link-modal" alt="link de grades deste curso"><a href="#ex3" rel="modal:open">Competências
+                        deste curso </a></p>
+            </section>
+        </article>
+        <div class="container-titulo-trabalho" id="trabalhos">
+            <h2 class="titulo-trabalho">TRABALHOS</h2>
+        </div>
+        <article class="container-trabalhos">
+            <img src="img/site-finans.png" alt="imagem do site Finans, criado em curso web pelo autor">
+            <img src="img/site-spotify.png" alt="imagem do site Spotify, criado em curso web pelo autor">
+            <img src="img/site-museu.png" alt="imagem do site Museu, criado em curso web pelo autor">
+            <img src="img/site-uniasselvi-filmes1.png"
+                alt="imagem do site Uniasselvi, criado em curso de graduação pelo autor">
+        </article>
+        <article class="final-pagina">
+            <section class="sobre-site">
+                <h2>Sobre o site</h2>
+                <p>Este site foi criado usando HTML5, focado em sua semântica, para facilitar a acessibilidade, assim
+                    como para otimização em motores de busca. <br><br> Na maioria do site foi usado Jquery e suas
+                    bibliotecas. <br><br> As imagens foram comprimidas para o site ficar mais leve, e para o background
+                    de imagens do curso, foi utilizado imagens geradas por inteligência artificial. </p>
+            </section>
+            <section class="contatos" id="contatos">
+                <h2>Obrigado</h2>
+                <p>Gostaria de agradecer sua visita, e caso se interessar aqui estão meus contatos</p>
+                <p><i class="icon fa-solid fa-phone"></i>+55 (31)9 9537-8098</p>
+                <p><i class="icon fa-solid fa-envelope"></i>bertoldi_douglas@hotmail.com</p>
+                <p><i class="icon fa-brands fa-linkedin-in"></i>www.linkedin.com/in/douglas-bertoldi</p>
+            </section>
+        </article>
+        <footer>&#169 Todos os direitos reservados</footer>
+    </main>
+    <!--lightgallery-->
+    <script src=" https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/zoom/lg-zoom.min.js"
+        integrity="sha512-BLW2Jrofiqm6m7JhkQDIh2olT0EBI58+hIL/AXWvo8gOXKmsNlU6myJyEkTy6rOAAZjn0032FRk8sl9RgXPYIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
